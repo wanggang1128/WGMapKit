@@ -1,14 +1,14 @@
 //
-//  HuProvinceMapView.m
-//  HuDataReportPlatform
+//  WGMapCommonView.m
+//  WGMap
 //
-//  Created by wanggang on 2018/11/26.
+//  Created by wanggang on 2018/11/30.
 //  Copyright © 2018 bozhong. All rights reserved.
 //
 
-#import "HuProvinceMapView.h"
+#import "WGMapCommonView.h"
 
-@interface HuProvinceMapView()
+@interface WGMapCommonView()
 
 /**地图块贝塞尔曲线数组*/
 @property(nonatomic,strong) NSMutableArray <UIBezierPath *>*pathAry;
@@ -27,7 +27,7 @@
 
 @end
 
-@implementation HuProvinceMapView
+@implementation WGMapCommonView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -43,7 +43,7 @@
 #pragma mark -画图
 - (void)drawRect:(CGRect)rect{
     // 边线颜色
-    UIColor* strokeColor = self.model.lineColor;
+    UIColor* strokeColor = self.lineColor;
     
     [self.pathAry enumerateObjectsUsingBlock:^(UIBezierPath * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
@@ -76,7 +76,7 @@
         // 省份名字: 字号 颜色 段落样式
         NSDictionary *dic = @{
                               NSFontAttributeName: [UIFont systemFontOfSize: 13]
-                              , NSForegroundColorAttributeName: self.model.nameColor, NSParagraphStyleAttributeName: textStyle
+                              , NSForegroundColorAttributeName: self.nameColor, NSParagraphStyleAttributeName: textStyle
                               };
         
         CGFloat textH = [textContent boundingRectWithSize: CGSizeMake(textRect.size.width, INFINITY)  options: NSStringDrawingUsesLineFragmentOrigin attributes: dic context: nil].size.height;
@@ -137,10 +137,10 @@
                 _isRuned = YES;
             }
             //清除之前选中的颜色
-            self.colorAry[_seletedIdx]  = self.model.backColorD;
+            self.colorAry[_seletedIdx]  = self.backColorD;
             _seletedIdx = i;
             //fill当前选中的颜色
-            self.colorAry[_seletedIdx]  = self.model.backColorH;
+            self.colorAry[_seletedIdx]  = self.backColorH;
             [self setNeedsDisplay];
             
             NSString *province = [self.nameWithIndexDic objectForKey:[NSString stringWithFormat:@"%zd",(_seletedIdx+1)]];
@@ -159,7 +159,7 @@
         NSString *value = [self.indexWithNameDic objectForKey:name];
         if ((value.integerValue - 1) < 0) continue;
         NSInteger index = value.integerValue - 1;
-        self.colorAry[index] = self.model.backColorD;
+        self.colorAry[index] = self.backColorD;
     }
 }
 
@@ -173,7 +173,7 @@
         NSString *value = [self.indexWithNameDic objectForKey:name];
         if ((value.integerValue - 1) < 0) continue;
         NSInteger index = value.integerValue - 1;
-        self.colorAry[index] = self.model.backColorH;
+        self.colorAry[index] = self.backColorH;
     }
     [self setNeedsDisplay];
 }
@@ -181,7 +181,7 @@
 #pragma mark -懒加载
 // 序号从1开始
 - (NSDictionary *)nameWithIndexDic{
-
+    
     if (!_nameWithIndexDic) {
         
         if (!self.textAry || self.textAry.count == 0) {
@@ -200,7 +200,7 @@
 }
 
 - (NSDictionary *)indexWithNameDic{
-
+    
     if (!_indexWithNameDic) {
         
         if (!self.textAry || self.textAry.count == 0) {
@@ -216,14 +216,6 @@
         }
     }
     return _indexWithNameDic;
-}
-
-- (HuMapModel *)model{
-    
-    if (!_model) {
-        _model = [[HuMapModel alloc] init];
-    }
-    return _model;
 }
 
 -(NSMutableArray<UIBezierPath *> *)pathAry{
@@ -249,11 +241,30 @@
     if (_colorAry == nil) {
         _colorAry = [NSMutableArray arrayWithCapacity:self.pathAry.count];
         for (int i = 0; i <self.pathAry.count; i++) {
-            UIColor* fillColor = self.model.backColorD;
+            UIColor* fillColor = self.backColorD;
             [_colorAry addObject:fillColor];
         }
     }
     return _colorAry;
+}
+
+- (UIColor *)backColorD{
+    return _backColorD != nil ? _backColorD:[UIColor colorWithRed:95.0/255 green:169.0/255.0 blue:232.0/255.0 alpha:1];
+}
+
+- (UIColor *)backColorH{
+    return _backColorH != nil ? _backColorH:[UIColor colorWithRed:60.0/255 green:138.0/255.0 blue:214.0/255.0 alpha:1];
+}
+
+- (UIColor *)nameColor{
+    return _nameColor != nil ? _nameColor:[UIColor whiteColor];
+}
+- (UIFont *)nameFont{
+    return _nameFont ? _nameFont:[UIFont systemFontOfSize:13];
+}
+
+- (UIColor *)lineColor{
+    return _lineColor != nil ? _lineColor:[UIColor lightGrayColor];
 }
 
 @end

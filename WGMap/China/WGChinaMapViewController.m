@@ -10,11 +10,11 @@
 #define WGHeight [UIScreen mainScreen].bounds.size.height
 
 #import "WGChinaMapViewController.h"
-#import "HuProvinceMapView.h"
+#import "WGMapCommonView.h"
 
 @interface WGChinaMapViewController ()
 
-@property (nonatomic, strong) HuProvinceMapView *mapView;
+@property (nonatomic, strong) WGMapCommonView *mapView;
 @property (nonatomic, strong) UILabel *remindLab;
 
 @end
@@ -35,7 +35,7 @@
     [self.view addSubview:self.remindLab];
     
     //地图
-    self.mapView = [[HuProvinceMapView alloc] init];
+    self.mapView = [[WGMapCommonView alloc] init];
     
     CGFloat scale = 0.7;
     self.mapView.transform = CGAffineTransformMakeScale(scale, scale);//宽高伸缩比例

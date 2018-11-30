@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		323FCDC221B12716007F448A /* provinceInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 323FCDC121B12716007F448A /* provinceInfo.plist */; };
+		323FCDC821B12E19007F448A /* WGMapCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 323FCDC721B12E19007F448A /* WGMapCommonView.m */; };
 		3256B7AE21AF7BFF0024FD85 /* guangDongInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */; };
 		3256B7AF21AF7BFF0024FD85 /* guangDong.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AD21AF7BFF0024FD85 /* guangDong.plist */; };
 		3256B7B221AFF91D0024FD85 /* WGGuangDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3256B7B121AFF91D0024FD85 /* WGGuangDongViewController.m */; };
@@ -20,8 +21,6 @@
 		32C68C3821AE801900E9CCE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C68C3721AE801900E9CCE5 /* main.m */; };
 		32C68C4221AE801900E9CCE5 /* WGMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C68C4121AE801900E9CCE5 /* WGMapTests.m */; };
 		32C68C4D21AE801900E9CCE5 /* WGMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C68C4C21AE801900E9CCE5 /* WGMapUITests.m */; };
-		32C68C6221AE905B00E9CCE5 /* HuProvinceMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C68C6021AE905900E9CCE5 /* HuProvinceMapView.m */; };
-		32C68C6521AE923500E9CCE5 /* HuMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C68C6321AE923500E9CCE5 /* HuMapModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		323FCDC121B12716007F448A /* provinceInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = provinceInfo.plist; sourceTree = "<group>"; };
+		323FCDC621B12E19007F448A /* WGMapCommonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGMapCommonView.h; sourceTree = "<group>"; };
+		323FCDC721B12E19007F448A /* WGMapCommonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGMapCommonView.m; sourceTree = "<group>"; };
 		3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDongInfo.plist; sourceTree = "<group>"; };
 		3256B7AD21AF7BFF0024FD85 /* guangDong.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDong.plist; sourceTree = "<group>"; };
 		3256B7B021AFF91D0024FD85 /* WGGuangDongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGGuangDongViewController.h; sourceTree = "<group>"; };
@@ -65,10 +66,6 @@
 		32C68C4821AE801900E9CCE5 /* WGMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C68C4C21AE801900E9CCE5 /* WGMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGMapUITests.m; sourceTree = "<group>"; };
 		32C68C4E21AE801900E9CCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32C68C6021AE905900E9CCE5 /* HuProvinceMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuProvinceMapView.m; sourceTree = "<group>"; };
-		32C68C6121AE905A00E9CCE5 /* HuProvinceMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuProvinceMapView.h; sourceTree = "<group>"; };
-		32C68C6321AE923500E9CCE5 /* HuMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuMapModel.m; sourceTree = "<group>"; };
-		32C68C6421AE923500E9CCE5 /* HuMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuMapModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,10 +174,8 @@
 		32C68C5F21AE8FF000E9CCE5 /* MapTools */ = {
 			isa = PBXGroup;
 			children = (
-				32C68C6421AE923500E9CCE5 /* HuMapModel.h */,
-				32C68C6321AE923500E9CCE5 /* HuMapModel.m */,
-				32C68C6121AE905A00E9CCE5 /* HuProvinceMapView.h */,
-				32C68C6021AE905900E9CCE5 /* HuProvinceMapView.m */,
+				323FCDC621B12E19007F448A /* WGMapCommonView.h */,
+				323FCDC721B12E19007F448A /* WGMapCommonView.m */,
 			);
 			path = MapTools;
 			sourceTree = "<group>";
@@ -320,8 +315,7 @@
 			files = (
 				32C68C2D21AE801800E9CCE5 /* ViewController.m in Sources */,
 				32C68C3821AE801900E9CCE5 /* main.m in Sources */,
-				32C68C6221AE905B00E9CCE5 /* HuProvinceMapView.m in Sources */,
-				32C68C6521AE923500E9CCE5 /* HuMapModel.m in Sources */,
+				323FCDC821B12E19007F448A /* WGMapCommonView.m in Sources */,
 				3256B7BA21B00EBE0024FD85 /* WGChinaMapViewController.m in Sources */,
 				32C68C2A21AE801800E9CCE5 /* AppDelegate.m in Sources */,
 				3256B7B221AFF91D0024FD85 /* WGGuangDongViewController.m in Sources */,

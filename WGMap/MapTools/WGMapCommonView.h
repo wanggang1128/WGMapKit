@@ -1,17 +1,41 @@
 //
-//  HuProvinceMapView.h
-//  HuDataReportPlatform
+//  WGMapCommonView.h
+//  WGMap
 //
-//  Created by wanggang on 2018/11/26.
+//  Created by wanggang on 2018/11/30.
 //  Copyright © 2018 bozhong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "HuMapModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HuProvinceMapView : UIView
+@interface WGMapCommonView : UIView
+
+/**
+ 背景色 默认
+ */
+@property(nonatomic,strong) UIColor *backColorD;
+
+/**
+ 背景色 高亮
+ */
+@property(nonatomic,strong) UIColor *backColorH;
+
+/**
+ 地图上名字 字号
+ */
+@property(nonatomic,strong) UIFont *nameFont;
+
+/**
+ 地图上名字 颜色
+ */
+@property(nonatomic,strong) UIColor *nameColor;
+
+/**
+ 边界线 颜色
+ */
+@property(nonatomic,strong) UIColor *lineColor;
 
 /**
  画图资源文件
@@ -24,15 +48,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *infoFileName;
 
 /**
- 配置地图信息模型
- */
-@property(nonatomic,strong) HuMapModel *model;
-
-/**
  选中的模块
  */
 @property(nonatomic,strong) NSArray <NSString *>*seletedAry;
-
 
 /**
  点击地图功能 开启后关闭设置选中省份功能  默认 NO

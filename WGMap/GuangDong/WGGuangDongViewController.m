@@ -10,11 +10,11 @@
 #define WGHeight [UIScreen mainScreen].bounds.size.height
 
 #import "WGGuangDongViewController.h"
-#import "HuProvinceMapView.h"
+#import "WGMapCommonView.h"
 
 @interface WGGuangDongViewController ()
 
-@property (nonatomic, strong) HuProvinceMapView *mapView;
+@property (nonatomic, strong) WGMapCommonView *mapView;
 @property (nonatomic, strong) UILabel *remindLab;
 
 @end
@@ -34,8 +34,7 @@
     self.remindLab.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:self.remindLab];
     
-    self.mapView = [[HuProvinceMapView alloc] init];
-    
+    self.mapView = [[WGMapCommonView alloc] init];
     CGFloat scale = WGWidth/320;
     self.mapView.transform = CGAffineTransformMakeScale(scale, scale);//宽高伸缩比例
     self.mapView.frame = CGRectMake(0, 0, WGWidth, WGWidth * 0.75);
