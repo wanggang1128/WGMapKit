@@ -1,0 +1,16 @@
+PODS:
+  - WGMapCommonView (1.0.1)
+
+DEPENDENCIES:
+  - WGMapCommonView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WGMapCommonView
+
+SPEC CHECKSUMS:
+  WGMapCommonView: 1399ebe080760f0d032574d92f2082c4e82ef7cd
+
+PODFILE CHECKSUM: e6db323e593c5c2b855b0e70be2d92dd5ac6d918
+
+COCOAPODS: 1.5.3

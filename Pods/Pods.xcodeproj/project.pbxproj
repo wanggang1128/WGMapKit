@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3279A9184A9CABCDD623B1283DC4BC05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+		8E4E8AE41216902E0300180E748DF509 /* Pods-WGMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BB42137EC84675461F8CEDD153A9D /* Pods-WGMap-dummy.m */; };
+		CA37F109978D642E6B2BA9CFC6346A2C /* WGMapCommonView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC83FF59F8C1493549F658B39F615F95 /* WGMapCommonView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6376584B9D2E7E3C0C0299E78A494FE /* WGMapCommonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F91741FBF62C8D34353382FED294D0FC /* WGMapCommonView-dummy.m */; };
+		ECAC2C2F29C6EA0DF50FA0E63B6C9808 /* WGMapCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219745DC9F1111F5417E26348A77B91 /* WGMapCommonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A978B6C499F53417C3243474D906196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC7E0648179C85D9DCCC00207CDEDD7D;
+			remoteInfo = WGMapCommonView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020F0109AC0726980CF2255DD52BA5CD /* Pods-WGMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGMap-frameworks.sh"; sourceTree = "<group>"; };
+		0DC1F06341084B307D06DF44CE02D42F /* WGMapCommonView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WGMapCommonView.xcconfig; sourceTree = "<group>"; };
+		21645673E925F9E53C733F97E0A1FA81 /* libPods-WGMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WGMap.a"; path = "libPods-WGMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5219745DC9F1111F5417E26348A77B91 /* WGMapCommonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WGMapCommonView.m; path = WGMap/MapTools/WGMapCommonView.m; sourceTree = "<group>"; };
+		57E4E5286D8C1542DC1FAC034B20AFD8 /* WGMapCommonView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WGMapCommonView-prefix.pch"; sourceTree = "<group>"; };
+		590710AB646949C38EEC6CFA704E854B /* Pods-WGMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGMap.release.xcconfig"; sourceTree = "<group>"; };
+		5EFD0236935B17F196DF2A804723F0C7 /* Pods-WGMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WGMap-resources.sh"; sourceTree = "<group>"; };
+		5F5FD063E856E383A330916F26A47515 /* Pods-WGMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WGMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		7047F3FA1B08F24CC3B9C92BAF5252AB /* libWGMapCommonView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWGMapCommonView.a; path = libWGMapCommonView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8903A6DD2A3EC2218377F63C1D4E3860 /* Pods-WGMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WGMap.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB1BB42137EC84675461F8CEDD153A9D /* Pods-WGMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WGMap-dummy.m"; sourceTree = "<group>"; };
+		D815201BC6C2072BB770425AA64A951B /* Pods-WGMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WGMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC83FF59F8C1493549F658B39F615F95 /* WGMapCommonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WGMapCommonView.h; path = WGMap/MapTools/WGMapCommonView.h; sourceTree = "<group>"; };
+		F91741FBF62C8D34353382FED294D0FC /* WGMapCommonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WGMapCommonView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEBA010AA53551CBAB96E9201030E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8087F3F73411229DE8DA7AC5976AC396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3279A9184A9CABCDD623B1283DC4BC05 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B774B263B890E91C88B8107EE793055 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC1F06341084B307D06DF44CE02D42F /* WGMapCommonView.xcconfig */,
+				F91741FBF62C8D34353382FED294D0FC /* WGMapCommonView-dummy.m */,
+				57E4E5286D8C1542DC1FAC034B20AFD8 /* WGMapCommonView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WGMapCommonView";
+			sourceTree = "<group>";
+		};
+		33BCC5DC8BF29AF1A3E11862217F02BA /* Pods-WGMap */ = {
+			isa = PBXGroup;
+			children = (
+				D815201BC6C2072BB770425AA64A951B /* Pods-WGMap-acknowledgements.markdown */,
+				5F5FD063E856E383A330916F26A47515 /* Pods-WGMap-acknowledgements.plist */,
+				AB1BB42137EC84675461F8CEDD153A9D /* Pods-WGMap-dummy.m */,
+				020F0109AC0726980CF2255DD52BA5CD /* Pods-WGMap-frameworks.sh */,
+				5EFD0236935B17F196DF2A804723F0C7 /* Pods-WGMap-resources.sh */,
+				8903A6DD2A3EC2218377F63C1D4E3860 /* Pods-WGMap.debug.xcconfig */,
+				590710AB646949C38EEC6CFA704E854B /* Pods-WGMap.release.xcconfig */,
+			);
+			name = "Pods-WGMap";
+			path = "Target Support Files/Pods-WGMap";
+			sourceTree = "<group>";
+		};
+		439617EAFCB50E7C1F770414D2834329 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55C9E9BE0B66268631883099A4EC6C5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E6088647D080412445C9744A01B646 /* WGMapCommonView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				55C9E9BE0B66268631883099A4EC6C5E /* Pods */,
+				EEA2B5C8CF7CFA8EA0BFBC8AA9917B06 /* Products */,
+				F8A6A30EA5FCDB381933BAFE6F3D5EC4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439617EAFCB50E7C1F770414D2834329 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E6088647D080412445C9744A01B646 /* WGMapCommonView */ = {
+			isa = PBXGroup;
+			children = (
+				EC83FF59F8C1493549F658B39F615F95 /* WGMapCommonView.h */,
+				5219745DC9F1111F5417E26348A77B91 /* WGMapCommonView.m */,
+				1B774B263B890E91C88B8107EE793055 /* Support Files */,
+			);
+			name = WGMapCommonView;
+			path = WGMapCommonView;
+			sourceTree = "<group>";
+		};
+		EEA2B5C8CF7CFA8EA0BFBC8AA9917B06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21645673E925F9E53C733F97E0A1FA81 /* libPods-WGMap.a */,
+				7047F3FA1B08F24CC3B9C92BAF5252AB /* libWGMapCommonView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A6A30EA5FCDB381933BAFE6F3D5EC4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33BCC5DC8BF29AF1A3E11862217F02BA /* Pods-WGMap */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71968A3A8202A2754766B171EC551757 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA37F109978D642E6B2BA9CFC6346A2C /* WGMapCommonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F441DCB34D67C1243753A28558052582 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BA4556FB7CA67FCB4FAC3AB61BA6445 /* Pods-WGMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1706293D5F57F73642FE5F074520B459 /* Build configuration list for PBXNativeTarget "Pods-WGMap" */;
+			buildPhases = (
+				F441DCB34D67C1243753A28558052582 /* Headers */,
+				318F15CD23E5B33CBCEEF7307713CDB8 /* Sources */,
+				2AEBA010AA53551CBAB96E9201030E18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4C49B1701F5639E87897F8750A50185 /* PBXTargetDependency */,
+			);
+			name = "Pods-WGMap";
+			productName = "Pods-WGMap";
+			productReference = 21645673E925F9E53C733F97E0A1FA81 /* libPods-WGMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC7E0648179C85D9DCCC00207CDEDD7D /* WGMapCommonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAFF51F7FF1EC17EDEB7984D56062F7 /* Build configuration list for PBXNativeTarget "WGMapCommonView" */;
+			buildPhases = (
+				71968A3A8202A2754766B171EC551757 /* Headers */,
+				FAD1AF0CECE63CBB888ED53590094DAA /* Sources */,
+				8087F3F73411229DE8DA7AC5976AC396 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGMapCommonView;
+			productName = WGMapCommonView;
+			productReference = 7047F3FA1B08F24CC3B9C92BAF5252AB /* libWGMapCommonView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EEA2B5C8CF7CFA8EA0BFBC8AA9917B06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA4556FB7CA67FCB4FAC3AB61BA6445 /* Pods-WGMap */,
+				BC7E0648179C85D9DCCC00207CDEDD7D /* WGMapCommonView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318F15CD23E5B33CBCEEF7307713CDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4E8AE41216902E0300180E748DF509 /* Pods-WGMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD1AF0CECE63CBB888ED53590094DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6376584B9D2E7E3C0C0299E78A494FE /* WGMapCommonView-dummy.m in Sources */,
+				ECAC2C2F29C6EA0DF50FA0E63B6C9808 /* WGMapCommonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4C49B1701F5639E87897F8750A50185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WGMapCommonView;
+			target = BC7E0648179C85D9DCCC00207CDEDD7D /* WGMapCommonView */;
+			targetProxy = 3A978B6C499F53417C3243474D906196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		615AF476FDD15B86D601BB0A50BD0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC1F06341084B307D06DF44CE02D42F /* WGMapCommonView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WGMapCommonView/WGMapCommonView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WGMapCommonView;
+				PRODUCT_NAME = WGMapCommonView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		90F509C5D703F800A712EA7A94464AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8903A6DD2A3EC2218377F63C1D4E3860 /* Pods-WGMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80614686B1225DB3166A4DD9BF82D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC1F06341084B307D06DF44CE02D42F /* WGMapCommonView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WGMapCommonView/WGMapCommonView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WGMapCommonView;
+				PRODUCT_NAME = WGMapCommonView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6FC9A83C0E6F2913C30334DEB902BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590710AB646949C38EEC6CFA704E854B /* Pods-WGMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1706293D5F57F73642FE5F074520B459 /* Build configuration list for PBXNativeTarget "Pods-WGMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F509C5D703F800A712EA7A94464AF6 /* Debug */,
+				F6FC9A83C0E6F2913C30334DEB902BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAFF51F7FF1EC17EDEB7984D56062F7 /* Build configuration list for PBXNativeTarget "WGMapCommonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80614686B1225DB3166A4DD9BF82D90 /* Debug */,
+				615AF476FDD15B86D601BB0A50BD0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
