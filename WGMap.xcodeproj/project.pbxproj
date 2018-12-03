@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		321AC6E321B4D1D100FDB4F1 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E221B4D1D100FDB4F1 /* demo.gif */; };
 		321AC6E521B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */; };
+		321AC6E721B549C400FDB4F1 /* china.svg in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E621B549C300FDB4F1 /* china.svg */; };
+		321AC6E921B549D300FDB4F1 /* guangdong.svg in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E821B549D300FDB4F1 /* guangdong.svg */; };
 		323FCDC221B12716007F448A /* provinceInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 323FCDC121B12716007F448A /* provinceInfo.plist */; };
 		3256B7AE21AF7BFF0024FD85 /* guangDongInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */; };
 		3256B7AF21AF7BFF0024FD85 /* guangDong.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AD21AF7BFF0024FD85 /* guangDong.plist */; };
@@ -46,6 +48,8 @@
 		0A08ADA297100BC3C379E9B7 /* Pods-WGMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGMap/Pods-WGMap.debug.xcconfig"; sourceTree = "<group>"; };
 		321AC6E221B4D1D100FDB4F1 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "中国各省份绘制SVG地图数据"; sourceTree = "<group>"; };
+		321AC6E621B549C300FDB4F1 /* china.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = china.svg; sourceTree = "<group>"; };
+		321AC6E821B549D300FDB4F1 /* guangdong.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = guangdong.svg; sourceTree = "<group>"; };
 		323FCDC121B12716007F448A /* provinceInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = provinceInfo.plist; sourceTree = "<group>"; };
 		3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDongInfo.plist; sourceTree = "<group>"; };
 		3256B7AD21AF7BFF0024FD85 /* guangDong.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDong.plist; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				32C68C3721AE801900E9CCE5 /* main.m */,
 				321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */,
 				321AC6E221B4D1D100FDB4F1 /* demo.gif */,
+				321AC6E621B549C300FDB4F1 /* china.svg */,
+				321AC6E821B549D300FDB4F1 /* guangdong.svg */,
 			);
 			path = WGMap;
 			sourceTree = "<group>";
@@ -301,12 +307,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321AC6E721B549C400FDB4F1 /* china.svg in Resources */,
 				3256B7AE21AF7BFF0024FD85 /* guangDongInfo.plist in Resources */,
 				321AC6E321B4D1D100FDB4F1 /* demo.gif in Resources */,
 				32C68C3521AE801900E9CCE5 /* LaunchScreen.storyboard in Resources */,
 				323FCDC221B12716007F448A /* provinceInfo.plist in Resources */,
 				321AC6E521B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 in Resources */,
 				32C68C3221AE801900E9CCE5 /* Assets.xcassets in Resources */,
+				321AC6E921B549D300FDB4F1 /* guangdong.svg in Resources */,
 				3256B7B721B000860024FD85 /* ChinaMapPaths.plist in Resources */,
 				3256B7AF21AF7BFF0024FD85 /* guangDong.plist in Resources */,
 			);
