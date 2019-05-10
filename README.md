@@ -19,7 +19,7 @@
 ###### * 引入头文件 #import "WGMapCommonView.h"
 ###### * 指定两个资源文件,一个是画地图的塞尔曲线数组、一个是各个子区域名字，rect，序号等信息
 ```
- self.mapView.pathFileName = @"guangDong.plist";
+ self.mapView.pathFileName = @"guangDongPath.plist";
  self.mapView.infoFileName = @"guangDongInfo.plist";
 ```
 ###### * 视图可通过调整伸缩比例来调试显示不全问题
@@ -33,3 +33,5 @@ self.mapView.center = CGPointMake(WGWidth *0.5,WGHeight *0.5);
 
 ##### 备注：目前我只画了全国地图和广东省的地图，其资源文件在项目中已经提供。其他省的地图的资源文件可以自己造一下：可参考如下链接
 [教你画中国地图和各省市地图，可点击](https://www.jianshu.com/p/bdfd89000025)
+
+##### 网友提供：内蒙古地图数据，目前已提交，可直接使用
