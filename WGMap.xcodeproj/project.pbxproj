@@ -123,6 +123,16 @@
 			path = NeiMengGu;
 			sourceTree = "<group>";
 		};
+		32454628228543340040F665 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				321AC6E621B549C300FDB4F1 /* china.svg */,
+				321AC6E821B549D300FDB4F1 /* guangdong.svg */,
+				324546222285217A0040F665 /* neimenggu.svg */,
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
 		3256B7B321B0005D0024FD85 /* China */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +169,7 @@
 		32C68C2721AE801800E9CCE5 /* WGMap */ = {
 			isa = PBXGroup;
 			children = (
+				32454628228543340040F665 /* SVG */,
 				3245461A22850C140040F665 /* NeiMengGu */,
 				3256B7B321B0005D0024FD85 /* China */,
 				32C68C5E21AE80EB00E9CCE5 /* GuangDong */,
@@ -172,9 +183,6 @@
 				32C68C3721AE801900E9CCE5 /* main.m */,
 				321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */,
 				324546262285239E0040F665 /* demo.gif */,
-				321AC6E621B549C300FDB4F1 /* china.svg */,
-				321AC6E821B549D300FDB4F1 /* guangdong.svg */,
-				324546222285217A0040F665 /* neimenggu.svg */,
 			);
 			path = WGMap;
 			sourceTree = "<group>";
