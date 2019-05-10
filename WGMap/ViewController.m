@@ -12,6 +12,7 @@
 #import "ViewController.h"
 #import "GuangDong/WGGuangDongViewController.h"
 #import "China/WGChinaMapViewController.h"
+#import "NeiMengGu/WGNeiMGViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -62,6 +63,8 @@
         
     }else{
         
+        WGNeiMGViewController *vc = [[WGNeiMGViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
@@ -78,7 +81,7 @@
 
 -(NSArray *)dataArray{
     if (!_dataArray) {
-        _dataArray = @[@"全国地图", @"广东地图"];
+        _dataArray = @[@"全国地图", @"广东地图", @"内蒙古地图"];
     }
     return _dataArray;
 }

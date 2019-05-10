@@ -1,30 +1,30 @@
 //
-//  WGChinaMapViewController.m
+//  WGNeiMGViewController.m
 //  WGMap
 //
-//  Created by wanggang on 2018/11/29.
-//  Copyright © 2018 bozhong. All rights reserved.
+//  Created by wanggang on 2019/5/10.
+//  Copyright © 2019 bozhong. All rights reserved.
 //
 
 #define WGWidth [UIScreen mainScreen].bounds.size.width
 #define WGHeight [UIScreen mainScreen].bounds.size.height
 
-#import "WGChinaMapViewController.h"
+#import "WGNeiMGViewController.h"
 #import "WGMapCommonView.h"
 
-@interface WGChinaMapViewController ()
+@interface WGNeiMGViewController ()
 
 @property (nonatomic, strong) WGMapCommonView *mapView;
 @property (nonatomic, strong) UILabel *remindLab;
 
 @end
 
-@implementation WGChinaMapViewController
+@implementation WGNeiMGViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"全国地图";
+    self.title = @"内蒙古地图";
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.remindLab = [[UILabel alloc] init];
@@ -34,18 +34,13 @@
     self.remindLab.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:self.remindLab];
     
-    //地图
     self.mapView = [[WGMapCommonView alloc] init];
+    self.mapView.frame = CGRectMake(-220,200, WGWidth+220, WGWidth * 0.8);
     
-    CGFloat scale = 0.7;
-    self.mapView.transform = CGAffineTransformMakeScale(scale, scale);//宽高伸缩比例
-    self.mapView.frame = CGRectMake(0, 0, WGWidth, WGWidth * 0.9);
-    self.mapView.center = CGPointMake(WGWidth *0.5,WGHeight *0.5);
-    
-    self.mapView.pathFileName = @"ChinaMapPaths.plist";
-    self.mapView.infoFileName = @"provinceInfo.plist";
+    self.mapView.pathFileName = @"neimengguPath.plist";
+    self.mapView.infoFileName = @"neimengguInfo.plist";
     _mapView.clickEnable = YES;
-    self.mapView.seletedAry = @[@"浙江"];
+    self.mapView.seletedAry = @[@"呼伦贝尔"];
     
     [self.view addSubview:_mapView];
     
@@ -59,5 +54,7 @@
         self.remindLab.text = self.mapView.seletedAry[0];
     }
 }
+
+
 
 @end

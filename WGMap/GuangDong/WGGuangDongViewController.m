@@ -40,7 +40,7 @@
     self.mapView.frame = CGRectMake(0, 0, WGWidth, WGWidth * 0.75);
     self.mapView.center = CGPointMake(WGWidth *0.5,WGHeight *0.5);
     
-    self.mapView.pathFileName = @"guangDong.plist";
+    self.mapView.pathFileName = @"guangDongPath.plist";
     self.mapView.infoFileName = @"guangDongInfo.plist";
     _mapView.clickEnable = YES;
     self.mapView.seletedAry = @[@"清远"];

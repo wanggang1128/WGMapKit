@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		321AC6E321B4D1D100FDB4F1 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E221B4D1D100FDB4F1 /* demo.gif */; };
 		321AC6E521B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */; };
 		321AC6E721B549C400FDB4F1 /* china.svg in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E621B549C300FDB4F1 /* china.svg */; };
 		321AC6E921B549D300FDB4F1 /* guangdong.svg in Resources */ = {isa = PBXBuildFile; fileRef = 321AC6E821B549D300FDB4F1 /* guangdong.svg */; };
 		323FCDC221B12716007F448A /* provinceInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 323FCDC121B12716007F448A /* provinceInfo.plist */; };
+		3245461D22850C540040F665 /* neimengguInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3245461B22850C540040F665 /* neimengguInfo.plist */; };
+		3245461E22850C540040F665 /* neimengguPath.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3245461C22850C540040F665 /* neimengguPath.plist */; };
+		3245462122850C770040F665 /* WGNeiMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3245462022850C770040F665 /* WGNeiMGViewController.m */; };
+		324546232285217A0040F665 /* neimenggu.svg in Resources */ = {isa = PBXBuildFile; fileRef = 324546222285217A0040F665 /* neimenggu.svg */; };
+		324546252285221F0040F665 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 324546242285221F0040F665 /* demo.gif */; };
 		3256B7AE21AF7BFF0024FD85 /* guangDongInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */; };
-		3256B7AF21AF7BFF0024FD85 /* guangDong.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AD21AF7BFF0024FD85 /* guangDong.plist */; };
+		3256B7AF21AF7BFF0024FD85 /* guangDongPath.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7AD21AF7BFF0024FD85 /* guangDongPath.plist */; };
 		3256B7B221AFF91D0024FD85 /* WGGuangDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3256B7B121AFF91D0024FD85 /* WGGuangDongViewController.m */; };
 		3256B7B721B000860024FD85 /* ChinaMapPaths.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3256B7B521B000860024FD85 /* ChinaMapPaths.plist */; };
 		3256B7BA21B00EBE0024FD85 /* WGChinaMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3256B7B921B00EBE0024FD85 /* WGChinaMapViewController.m */; };
@@ -46,13 +50,18 @@
 
 /* Begin PBXFileReference section */
 		0A08ADA297100BC3C379E9B7 /* Pods-WGMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGMap/Pods-WGMap.debug.xcconfig"; sourceTree = "<group>"; };
-		321AC6E221B4D1D100FDB4F1 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "中国各省份绘制SVG地图数据"; sourceTree = "<group>"; };
 		321AC6E621B549C300FDB4F1 /* china.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = china.svg; sourceTree = "<group>"; };
 		321AC6E821B549D300FDB4F1 /* guangdong.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = guangdong.svg; sourceTree = "<group>"; };
 		323FCDC121B12716007F448A /* provinceInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = provinceInfo.plist; sourceTree = "<group>"; };
+		3245461B22850C540040F665 /* neimengguInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = neimengguInfo.plist; sourceTree = "<group>"; };
+		3245461C22850C540040F665 /* neimengguPath.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = neimengguPath.plist; sourceTree = "<group>"; };
+		3245461F22850C770040F665 /* WGNeiMGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGNeiMGViewController.h; sourceTree = "<group>"; };
+		3245462022850C770040F665 /* WGNeiMGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGNeiMGViewController.m; sourceTree = "<group>"; };
+		324546222285217A0040F665 /* neimenggu.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = neimenggu.svg; sourceTree = "<group>"; };
+		324546242285221F0040F665 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = demo.gif; path = ../../../../demo.gif; sourceTree = "<group>"; };
 		3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDongInfo.plist; sourceTree = "<group>"; };
-		3256B7AD21AF7BFF0024FD85 /* guangDong.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDong.plist; sourceTree = "<group>"; };
+		3256B7AD21AF7BFF0024FD85 /* guangDongPath.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = guangDongPath.plist; sourceTree = "<group>"; };
 		3256B7B021AFF91D0024FD85 /* WGGuangDongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGGuangDongViewController.h; sourceTree = "<group>"; };
 		3256B7B121AFF91D0024FD85 /* WGGuangDongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGGuangDongViewController.m; sourceTree = "<group>"; };
 		3256B7B521B000860024FD85 /* ChinaMapPaths.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ChinaMapPaths.plist; sourceTree = "<group>"; };
@@ -103,6 +112,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3245461A22850C140040F665 /* NeiMengGu */ = {
+			isa = PBXGroup;
+			children = (
+				3245461C22850C540040F665 /* neimengguPath.plist */,
+				3245461B22850C540040F665 /* neimengguInfo.plist */,
+				3245461F22850C770040F665 /* WGNeiMGViewController.h */,
+				3245462022850C770040F665 /* WGNeiMGViewController.m */,
+			);
+			path = NeiMengGu;
+			sourceTree = "<group>";
+		};
 		3256B7B321B0005D0024FD85 /* China */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +159,7 @@
 		32C68C2721AE801800E9CCE5 /* WGMap */ = {
 			isa = PBXGroup;
 			children = (
+				3245461A22850C140040F665 /* NeiMengGu */,
 				3256B7B321B0005D0024FD85 /* China */,
 				32C68C5E21AE80EB00E9CCE5 /* GuangDong */,
 				32C68C2821AE801800E9CCE5 /* AppDelegate.h */,
@@ -150,9 +171,10 @@
 				32C68C3621AE801900E9CCE5 /* Info.plist */,
 				32C68C3721AE801900E9CCE5 /* main.m */,
 				321AC6E421B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 */,
-				321AC6E221B4D1D100FDB4F1 /* demo.gif */,
+				324546242285221F0040F665 /* demo.gif */,
 				321AC6E621B549C300FDB4F1 /* china.svg */,
 				321AC6E821B549D300FDB4F1 /* guangdong.svg */,
+				324546222285217A0040F665 /* neimenggu.svg */,
 			);
 			path = WGMap;
 			sourceTree = "<group>";
@@ -178,7 +200,7 @@
 		32C68C5E21AE80EB00E9CCE5 /* GuangDong */ = {
 			isa = PBXGroup;
 			children = (
-				3256B7AD21AF7BFF0024FD85 /* guangDong.plist */,
+				3256B7AD21AF7BFF0024FD85 /* guangDongPath.plist */,
 				3256B7AC21AF7BFF0024FD85 /* guangDongInfo.plist */,
 				3256B7B021AFF91D0024FD85 /* WGGuangDongViewController.h */,
 				3256B7B121AFF91D0024FD85 /* WGGuangDongViewController.m */,
@@ -307,16 +329,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3245461D22850C540040F665 /* neimengguInfo.plist in Resources */,
+				324546252285221F0040F665 /* demo.gif in Resources */,
 				321AC6E721B549C400FDB4F1 /* china.svg in Resources */,
 				3256B7AE21AF7BFF0024FD85 /* guangDongInfo.plist in Resources */,
-				321AC6E321B4D1D100FDB4F1 /* demo.gif in Resources */,
+				3245461E22850C540040F665 /* neimengguPath.plist in Resources */,
 				32C68C3521AE801900E9CCE5 /* LaunchScreen.storyboard in Resources */,
 				323FCDC221B12716007F448A /* provinceInfo.plist in Resources */,
 				321AC6E521B4DA9100FDB4F1 /* 中国各省份绘制SVG地图数据 in Resources */,
 				32C68C3221AE801900E9CCE5 /* Assets.xcassets in Resources */,
 				321AC6E921B549D300FDB4F1 /* guangdong.svg in Resources */,
+				324546232285217A0040F665 /* neimenggu.svg in Resources */,
 				3256B7B721B000860024FD85 /* ChinaMapPaths.plist in Resources */,
-				3256B7AF21AF7BFF0024FD85 /* guangDong.plist in Resources */,
+				3256B7AF21AF7BFF0024FD85 /* guangDongPath.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +394,7 @@
 				32C68C2D21AE801800E9CCE5 /* ViewController.m in Sources */,
 				32C68C3821AE801900E9CCE5 /* main.m in Sources */,
 				3256B7BA21B00EBE0024FD85 /* WGChinaMapViewController.m in Sources */,
+				3245462122850C770040F665 /* WGNeiMGViewController.m in Sources */,
 				32C68C2A21AE801800E9CCE5 /* AppDelegate.m in Sources */,
 				3256B7B221AFF91D0024FD85 /* WGGuangDongViewController.m in Sources */,
 			);
